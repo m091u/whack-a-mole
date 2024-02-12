@@ -20,27 +20,29 @@ body {
   background-image: url(./green-field.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  height: 100vh;
+  /* height: 100vh; */
 }
 
 h1{
   text-align: center;
   color: wheat;
-  font-size: 11rem;
+  font-size: 10rem;
   line-height: 1;
   margin-bottom: 0;
   margin-top: 0;
-  padding-top: 100px;
+  padding-top: 50px;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.7); 
 }
 
 p {
   text-align: center;
   color: wheat;
-  font-size: 7rem;
+  font-size: 5rem;
   font-weight: bold;
   line-height: 1;
   margin-bottom: 0;
-  margin: 50px;
+  margin: 40px 0;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.7); 
 }
 
 .score, .high-score {
@@ -48,11 +50,12 @@ p {
   padding: 0 3rem;
   line-height: 1;
   border-radius: 1rem;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.7); 
 }
 
 .game {
   width: 700px;
-  height: 400px;
+  height: 350px;
   display: flex;
   flex-wrap: wrap;
   margin: 0 auto;
@@ -62,7 +65,7 @@ p {
   flex: 1 0 33.33%;
   overflow: hidden;
   position: relative;
-  padding: 0 10px
+  /* padding: 0 10px */
 }
 
 .hole:after {
@@ -93,14 +96,18 @@ p {
 
 .button {
   display: block;
-  margin: 80px auto;
-  font-size: 8rem;
+  margin: 80px auto 0;
+  font-size: 6rem;
   color: wheat;
   border: none;
-  border-radius: 5px;
+  border-radius: 10px;
   font-family: inherit;
   font-weight: bold;
   background-color: rgba(233, 12, 225, 0.333);
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.7); 
+}
+.last{
+  padding-bottom: 50px;
 }
 
 @media (max-width: 768px) {
